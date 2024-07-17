@@ -4,6 +4,7 @@ https://github.com/JetBrains/kotlin/blob/master/docs/analysis/analysis-api/analy
 
 ### Notes
 
-- KT-60487 Analysis API: properly design and support of standalone mode for Analysis API
-- KT-61419 Analysis API: release public version of Standalone Analysis API
-- KT-56203 AA: Publish analysis-api-standalone and dependencies to Maven Central
+- [KT-60487 Analysis API: properly design and support of standalone mode for Analysis API](https://youtrack.jetbrains.com/issue/KT-60487)
+- [KT-61419 Analysis API: release public version of Standalone Analysis API](https://youtrack.jetbrains.com/issue/KT-61419)
+- [KT-56203 AA: Publish analysis-api-standalone and dependencies to Maven Central](https://youtrack.jetbrains.com/issue/KT-56203)
+- [KT-61639 Standalone Analysis API cannot find transitive dependencies](https://youtrack.jetbrains.com/issue/KT-61639)
