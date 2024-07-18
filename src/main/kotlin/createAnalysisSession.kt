@@ -28,12 +28,12 @@ internal fun createAnalysisSession(
         buildKtSdkModule {
           addBinaryRootsFromJdkHome(jdkHome.toPath(), isJre = true)
           libraryName = "JDK"
+          platform = JvmPlatforms.defaultJvmPlatform
         }
       }
       platform = JvmPlatforms.defaultJvmPlatform
       sourceModule = buildKtSourceModule {
-        // default is LanguageVersion.LATEST_STABLE.
-        //  languageVersionSettings = getLanguageVersionSettings(sourceSet.languageVersion, sourceSet.apiVersion)
+        // default languageVersionSettings is LanguageVersion.LATEST_STABLE.
         platform = JvmPlatforms.defaultJvmPlatform
         moduleName = "<module-main>"
         addSourceRoots(sourceSets)

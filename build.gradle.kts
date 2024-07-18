@@ -12,6 +12,7 @@ repositories {
 
 dependencies {
   implementation(libs.intellij.java.psi.api) { isTransitive = false }
+  implementation("org.jetbrains.intellij.deps:trove4j:1.0.20200330")
 
   listOf(
     libs.kotlin.high.level.api.api,
